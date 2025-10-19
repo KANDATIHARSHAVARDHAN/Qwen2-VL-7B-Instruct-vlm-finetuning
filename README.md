@@ -60,19 +60,6 @@ LORA_DROPOUT = 0.1
 TARGET_MODULES = ["q_proj", "v_proj"]
 ```
 
-## 📁 Project Structure
-
-```
-vlm-finetuning/
-├── train.py              # Main training script
-├── requirements.txt      # Python dependencies
-├── output/              # Model checkpoints (created during training)
-│   ├── adapter_config.json
-│   ├── adapter_model.safetensors
-│   └── ...
-├── .gitignore           # Git ignore file
-└── README.md            # This file
-```
 
 ## 💻 Usage
 
