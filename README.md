@@ -75,21 +75,7 @@ The script performs the following steps:
 6. **Save Best Model**: Stores adapter weights based on eval loss
 7. **Post-training Evaluation**: Tests fine-tuned model
 
-### Training Output
 
-```bash
-Using device: cuda
-NUM_STEPS: 283
-Before adapter parameters: 7615901440
-trainable params: 5,242,880 || all params: 7,621,144,320 || trainable%: 0.0688
-------------------------------
-Initial Evaluation
-{'eval_loss': X.XXX, 'eval_runtime': X.XX, ...}
-------------------------------
-Training
-[Training progress with loss metrics]
-------------------------------
-```
 
 ### Custom Dataset
 
