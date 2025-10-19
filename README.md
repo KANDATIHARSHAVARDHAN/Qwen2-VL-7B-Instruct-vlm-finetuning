@@ -23,35 +23,9 @@ This project demonstrates how to fine-tune a Vision Language Model (VLM) to anal
 pip install torch transformers datasets peft trl bitsandbytes accelerate
 ```
 
-### Detailed Dependencies
 
-```
-torch>=2.0.0
-transformers>=4.40.0
-datasets>=2.14.0
-peft>=0.8.0
-trl>=0.7.0
-bitsandbytes>=0.41.0
-accelerate>=0.25.0
-```
 
-## 🚀 Quick Start
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/YOUR_USERNAME/vlm-finetuning.git
-cd vlm-finetuning
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run training**
-```bash
-python train.py
-```
 
 ## 📊 Model Details
 
